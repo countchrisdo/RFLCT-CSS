@@ -1,4 +1,3 @@
-# Digital Clock/Calender
+# RFLCT CSS
 
-A digital Clock/Calender I made for a raspberry pi on my desk.
-
+CSS from the RFLCT  website before it was taken down. And then I made a test page to show off the interesting classes.
