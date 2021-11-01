@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Test Area</title>
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/main.bundle.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body onload="initClock()">
+    <header>
+      <h1>HTML Test Area</h1>
+    </header>
+    <label for="gsearch">Search:</label>
+    <input type="search" id="gsearch" name="gsearch" />
+
+    <main class="container container--center">
+      <h1>Hello Christopher</h1>
+
+      <section class="clock">
+        <div class="datetime">
+          <div class="date">
+            <span id="dayname">Day</span>,
+            <span id="month">Month</span>
+            <span id="daynum">00</span>,
+            <span id="year">Year</span>
+          </div>
+          <div class="time">
+            <span id="hour">00</span>: <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <div>
+        <h1>Testing classes</h1>
+        <hr />
+
+        <p class="intro">This is a test paragraph. Intro</p>
+        <p class="note">This is a test paragraph. Note</p>
+
+        <details>
+          <summary>Details test</summary>
+          Something small enough to escape casual notice.
+        </details>
+
+        <br />
+        <button class="button button--primary">Click Me: I'm a button</button>
+        <br /><br />
+        <button class="button button--secondary">Click Me: I'm a button</button>
+        <br /><br />
+        <button class="button button--bracket">Click Me: I'm a button</button>
+        <br /><br />
+        <button class="button button--large">Click Me: I'm a button</button>
+
+        <p>
+          <sub>Testing Sub Tag</sub> <sup>Testing Sup Tag</sup>
+          <em>Testing Em Tag</em> <strong>Testing Strong Tag</strong>
+          <span>Testing Span Tag</span>
+          <br />
+          <code>Testing Code Tag</code> <small>Testing small Tag</small>
+          <br />
+          <q>Testing Q Tag</q> <dfn>Testing Dfn Tag</dfn>
+          <br />
+          <abbr title="ABBREVIATION">Testing Abbr Tag</abbr>
+          <br />
+          <var>Testing Var Tag</var> <samp>Testing Samp Tag</samp>
+          <kbd>Testing Kbd Tag</kbd> <s>Testing S Tag</s>
+          <mark>Testing Mark Tag</mark>
+          <del>Testing Del Tag</del> <ins>Testing Ins Tag</ins>
+        </p>
+
+        <p class="eyebrow">
+          This is a test paragraph. Eyebrow
+        </p>
+        <p class="eyebrow-reduced">
+          This is a test paragraph. Eyebrow Reduced
+        </p>
+        <p class="eyebrow-reduced-small">
+          This is a test paragraph. Eyebrow small.
+        </p>
+        <p>
+          This is a link to
+          <a href="http://google.com/" class="link link--underline">
+            Google.com</a
+          >
+        </p>
+
+        <p>...</p>
+
+        <form action="" class="form-field">
+          Test Form
+          <fieldset>
+            Test Fieldset
+            <legend>Test Legend</legend>
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class=".form-field__input"
+            />
+            <input type="text" name="email" placeholder="Email" />
+            <input type="text" name="phone" placeholder="Phone" />
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+
+        <p>...</p>
+
+        <progress id="file" value="32" max="100"> 32% </progress>
+      </div>
+    </main>
+  </body>
+</html>
